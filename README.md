@@ -18,4 +18,14 @@ Estimating brain age based on structural Magnetic Resonance Imaging (MRI) is one
    cd scripts/
    sh sample.sh
    ```
-   
+## Citation
+```
+@inproceedings{cheshmi2023brain,
+  title={Brain Age Estimation Using Structural MRI: A Clustered Federated Learning Approach},
+  author={Cheshmi, Seyyed Saeid and Mahyar, Abtin and Soroush, Anita and Rezvani, Zahra and Farahani, Bahar},
+  booktitle={2023 IEEE International Conference on Omni-layer Intelligent Systems (COINS)},
+  pages={1--6},
+  year={2023},
+  organization={IEEE}
+}
+```
