@@ -1,7 +1,6 @@
 import torch
 from torch import nn
 
-
 class Client:
     def __init__(self, index, model, lr, wd, device, train_dataloader, test_dataloader):
         self.index = index

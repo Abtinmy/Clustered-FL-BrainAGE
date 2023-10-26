@@ -18,7 +18,7 @@ class OpenBHBDataset(Dataset):
 
     def __getitem__(self, index):
         id = self.tsv_file.iloc[index]['participant_id']
-        image = np.load(f'{self.data_dir}/sub-{id}_preproc-{self.modality}_T1w.npy').astype('float32')
+        image = np.load(f'{self.data_dir}/sub-{id}_preproc-{self.modality}_T1w.npy').astype('float64')
         image = image / np.max(image)
 
         if self.transform:
